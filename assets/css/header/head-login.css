@@ -1,0 +1,8 @@
+.head__login {
+  color: var(--color-texto-enlace);
+  background-color: var(--color-backgroud-btn-claro);
+
+  font-family: var(--contenido);
+  font-size: 1rem;
+  font-weight: 600;
+}

@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Ubuntu&display=swap');
+:root {
+  --titulos: 'Ubuntu', sans-serif;
+  --contenido: 'Crimson Text', serif;
+
+  --color-backgroud-blanco: #ffff;
+  --color-backgroud-footer: #EAF2FD;
+  --color-backgroud-btn-claro: #ffff;
+  --color-backgroud-btn: #2a7ae4;
+
+  --color-texto-enlace: #2a7ae4;
+  --color-texto-descripcion: #464646;
+  --color-texto-enlace-claro: #ffff;
+}
 * {
   box-sizing: border-box;
 }

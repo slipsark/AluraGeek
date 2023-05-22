@@ -1,9 +1,6 @@
-const menushowClick = document.querySelector(".toggle");
-const menushow = document.querySelector(".nav");
+const searchClick = document.querySelector(".search__accion");
+const searchInput = document.querySelector(".search__descripcion");
 
-menushowClick.addEventListener("click", ()=> {
-  menushow.classList.toggle("show")
+searchClick.addEventListener("click", ()=> {
+  searchInput.classList.toggle("search__show")
 })
-
-
-console.log("Pruba de coneción");
