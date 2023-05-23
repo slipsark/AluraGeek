@@ -1,0 +1,11 @@
+.llamada__btn {
+  max-width: 185px;
+
+  font-family: var(--contenido);
+  font-weight: 600;
+  font-size: 0.875;
+  text-align: center;
+
+  color: var(--color-texto-enlace-claro);
+  background-color: var(--color-backgroud-btn);
+}

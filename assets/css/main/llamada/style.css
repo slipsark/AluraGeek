@@ -1,0 +1,27 @@
+.llamada {
+  height: calc(100vh - 4.3rem);
+  padding: 0 0 1rem .9rem;
+  gap: 1.2rem;
+
+  background-image: url(../../../img/supermercado.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  
+}
+@media (min-width: 768px) {
+  .llamada {
+    height: calc(100vh - 4.9rem);
+    padding: 0 0 2rem 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .llamada {
+    height: calc(100vh - 5.44rem);
+    padding-left: 9.5rem;
+  }
+}
