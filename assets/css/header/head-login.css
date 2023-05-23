@@ -6,3 +6,13 @@
   font-size: 1rem;
   font-weight: 600;
 }
+@media (min-width: 768px) {
+  .head__login {
+    display: flex;
+    order: 2;
+
+    padding: 0.5rem 2rem;
+
+    font-weight: 400;
+  }
+}

@@ -18,7 +18,7 @@
   border-radius: 1rem;
 }
 .search__descripcion:focus {
-  outline: noneds;
+  outline: none;
 }
 .search__accion {
   width: 25px;
@@ -28,5 +28,19 @@
   display: block;
 
   position: absolute;
-  transform: translateX(-115%) translateY(3rem);
+  transform: translateX(-14rem) translateY(3rem);
+}
+@media (min-width: 768px) {
+  .head__search-container {
+    order: 1;
+  }
+  .search__show  {
+    display: none;
+  }
+  .search__descripcion {
+    display: block;
+  }
+  .search__accion {
+    display: none;
+  }
 }
