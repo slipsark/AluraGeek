@@ -1,0 +1,41 @@
+.card {
+  max-width: 156px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+
+  font-family: var(--contenido);
+}
+.card__img {
+  width: 100%;
+  height: 174px;
+}
+.card__descripcion {
+  font-size: 0.875rem;
+  font-weight: 500;
+
+  color: var(--color-texto-descripcion);
+}
+.card__precio {
+  font-size: 1rem;
+  font-weight: 700;
+
+  color: var(--color-texto-descripcion);
+}
+.card__enlace {
+  font-size: 0.875;
+  font-weight: 700;
+
+  color: var(--color-texto-enlace);
+}
+@media (min-width: 768px) {
+  .card {
+    max-width: 164px;
+  }
+}
+@media (min-width: 1024px) {
+  .card {
+    max-width: 176px;
+  }
+}

@@ -1,0 +1,35 @@
+.categoria__encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.encabezado__titulo {
+  font-family: var(--titulos);
+  font-size: 1.375;
+  font-weight: 700;
+
+  color: var(--color-texto-descripcion);
+}
+.encabezado__enlace {
+  font-family: var(--contenido);
+  font-size: 0.875rem;
+  font-weight: 700;
+
+  color: var(--color-texto-enlace);
+}
+.encabezado__enlace::after {
+  content: " " url(../../../img/Vector.png);
+}
+@media (min-width: 768px) {
+  .encabezado__titulo {
+    font-size: 1.375rem;
+  }
+  .encabezado__enlace {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .encabezado__titulo {
+    font-size: 2rem;
+  }
+}
