@@ -1,0 +1,9 @@
+.container__form {
+  height: calc(100vh - 4.2rem);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--color-backgroud-login);
+}

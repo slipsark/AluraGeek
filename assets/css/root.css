@@ -11,6 +11,9 @@
   --color-texto-enlace: #2a7ae4;
   --color-texto-descripcion: #464646;
   --color-texto-enlace-claro: #ffff;
+
+  /* root login */
+  --color-backgroud-login: #e5e5e5;
 }
 * {
   box-sizing: border-box;
