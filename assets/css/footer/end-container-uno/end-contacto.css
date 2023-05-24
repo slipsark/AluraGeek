@@ -12,6 +12,7 @@
 }
 #mensaje {
   max-width: 248px;
+  max-height: 82px;
   padding: .8rem;
 
   border: none;
@@ -34,4 +35,20 @@
   font-family: var(--contenido);
   font-size: 0.875rem;
   font-weight: 600;
+}
+@media (min-width: 768px) {
+  .end__contacto{
+    width: 50%;
+  }
+  #mensaje {
+    max-width: 100%;    
+  }
+}
+@media (min-width: 1024px) {
+  .end__contacto {
+    width: 560px;
+  }
+  #mensaje {
+    max-width: 100%;
+  }
 }

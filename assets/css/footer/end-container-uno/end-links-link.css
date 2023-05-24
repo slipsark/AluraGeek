@@ -13,3 +13,8 @@
 
   color: var(--color-texto-descripcion);
 }
+@media (min-width: 768px) {
+  .end__links {
+    align-items: flex-start;
+  }
+}
