@@ -1,0 +1,7 @@
+.descripcion {
+  font-family: var(--contenido);
+  font-size: 1rem;
+  font-weight: 500;
+
+  color: var(--color-texto-descripcion);
+}

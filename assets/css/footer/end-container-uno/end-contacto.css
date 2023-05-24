@@ -1,0 +1,37 @@
+.end__contacto {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+.contacto__titulo {
+  font-family: var(--contenido);
+  font-size: 1rem;
+  font-weight: 700;
+
+  color: var(--color-texto-descripcion);
+}
+#mensaje {
+  max-width: 248px;
+  padding: .8rem;
+
+  border: none;
+
+  font-family: var(--contenido);
+  font-size: 1rem;
+  font-weight: 400;
+
+  color: var(--color-texto-descripcion);
+}
+#mensaje:focus {
+  outline: none;
+}
+.contacto__btn {
+  width: 160px;
+
+  background-color: var(--color-backgroud-btn);
+  color: var(--color-texto-enlace-claro);
+
+  font-family: var(--contenido);
+  font-size: 0.875rem;
+  font-weight: 600;
+}

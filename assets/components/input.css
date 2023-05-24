@@ -1,0 +1,45 @@
+.input__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  font-family: var(--contenido);
+  font-size: 1rem;
+  font-weight: 400;
+
+  color: var(--color-texto-descripcion);
+
+  padding: .6rem .8rem;
+  border: none;
+  outline: none;
+
+  
+}
+.label__name {
+  font-family: var(--contenido);
+  font-size: 1rem;
+  font-weight: 400;
+
+  color: #a2a2a2;
+  background-color: white;
+
+  padding: .2rem  .8rem;
+  position: absolute;
+  top: .7rem; 
+}
+
+.input:focus + .label__name {
+  transform: translateY(-1.3rem);
+
+  font-size: 0.75rem;
+  width: 100%;
+
+  transition: all .8s;
+}
+.input:not(:placeholder-shown) + .label__name {
+  transform: translateY(-1.3rem);
+
+  font-size: 0.75rem;
+  width: 100%;
+}
