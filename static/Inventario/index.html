@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/css/reset.css">
+  <link rel="stylesheet" href="../../assets/css/root.css">
+
+  <link rel="stylesheet" href="../../assets/components/btn.css">
+  <link rel="stylesheet" href="../../assets/components/input.css">
+  <link rel="stylesheet" href="../../assets/components/card.css">
+
+  <link rel="stylesheet" href="../../assets/css/header/style.css">
+  <link rel="stylesheet" href="../../assets/css/header/head-logo.css">
+  <link rel="stylesheet" href="../../assets/css/header/head-search.css">
+
+  <link rel="stylesheet" href="../../assets/css/footer/style.css">
+  <link rel="stylesheet" href="../../assets/css/footer/end-container-uno/style.css">
+  <link rel="stylesheet" href="../../assets/css/footer/end-container-uno/end-logo.css">
+  <link rel="stylesheet" href="../../assets/css/footer/end-container-uno/end-links-link.css">
+  <link rel="stylesheet" href="../../assets/css/footer/end-container-uno/end-contacto.css">
+  <link rel="stylesheet" href="../../assets/css/footer/end-container-dos/style.css">
+  <link rel="stylesheet" href="../../assets/css/footer/end-container-dos/descripcion.css">
+  <title>Inventario</title>
+</head>
+<body>
+  <header class="head">
+    
+    <a href="../Home/index.html"><img src="../../assets/img/Logo.png" alt="Logo" class="head__logo"></a>
+    <div class="head__search-container">
+      <input type="text" class="search__descripcion" placeholder="¿Qué deseas buscar?">
+      <img src="../../assets/img/search.png" class="search__accion" alt="search" ></img>
+    </div>
+
+  </header>
+  <main>
+
+    <div class="inventario__encabezado">
+      <span class="inventario__titulo">Todos los productos</span>
+      <a href="#" class="btn">Agregar productos</a>
+    </div>
+
+    <div class="inventario__productos">
+
+      <div class="producto__card card">
+        <img src="../../assets/img/categoria-carnicos/carne molida.jpeg" alt="Carne molida" class="card__img">
+        <span class="card__descripcion">Carne molida</span>
+        <span class="card__precio">$ 10</span>
+        <span class="id">1</span>
+        <img src="" alt="Borrar">
+      </div>
+
+    </div>
+
+  </main>
+  <footer class="end">
+    <div class="end__container-uno">
+      <nav class="container">
+
+        <a href="../Home/index.html"><img src="../../assets/img/Logo.png" alt="Logo" class="end__logo"></a>
+        <ul class="end__links">
+  
+          <li class="end__link"><a href="#">Quienes somos</a></li>
+          <li class="end__link"><a href="#">Politica de privacidad</a></li>
+          <li class="end__link"><a href="#">Programa de fidelidad</a></li>
+          <li class="end__link"><a href="#">Nuestras tiendas</a></li>
+          <li class="end__link"><a href="#">Quiero ser franquiciado</a></li>
+          <li class="end__link"><a href="#">Anúncie aquí</a></li>
+  
+        </ul>
+      </nav>
+      <form class="end__contacto">
+  
+          <span class="contacto__titulo">Hable con nosotros</span>
+          <div class="input__container">
+  
+            <input class="input" type="text" required placeholder=" " id="nombre">
+            <label class="label__name" for="nombre">Nombre</label>
+  
+          </div>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="contacto__mensaje" placeholder="Escribe tu mensaje"></textarea>
+          <a href="#" class="btn contacto__btn">Enviar mensaje</a>
+
+
+      </form>
+    </div>
+
+    <div class="end__container-dos">
+
+      <span class="descripcion">©copyright | Edwin Cevallos</span>
+      <span class="descripcion">2023</span>
+
+    </div>
+  </footer>
+</body>
+</html>

@@ -39,23 +39,23 @@
 
   <main class="container__form">
 
-    <form action="" class="login__container">
+    <form class="login__container submit">
 
       <span class="login__titulo contacto__titulo">Iniciar Sesión</span>
       <div class="input__container">
   
-        <input class="input" type="text" required placeholder=" " id="user">
+        <input class="input user" type="text" placeholder=" " id="user">
         <label class="label__name" for="user">Usuario</label>
 
       </div>
       <div class="input__container">
   
-        <input class="input" type="password" required placeholder=" " id="password">
+        <input class="input password" type="password" placeholder=" " id="password">
         <label class="label__name" for="password">Password</label>
 
       </div>
-      <button class="btn contacto__btn">Entrar</button>
-
+      <button type="submit" class="btn contacto__btn ">Entrar</button>
+      <span class="alertas"></span>
     </form>
 
   </main>
@@ -100,4 +100,5 @@
     </div>
   </footer>
 </body>
+<script src="../../assets/js/index.js"></script>
 </html>
