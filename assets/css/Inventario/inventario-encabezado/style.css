@@ -1,0 +1,18 @@
+.inventario__encabezado {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  .inventario__encabezado {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1024px) {
+  .inventario__encabezado {
+    padding: 2rem;
+  }
+}

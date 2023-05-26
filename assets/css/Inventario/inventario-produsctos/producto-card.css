@@ -1,0 +1,13 @@
+.producto__card {
+  position: relative;
+  cursor: pointer;
+}
+
+.eliminar {
+  position: absolute;
+  top: -.9rem;
+  right: -.9rem;
+
+  width: 20px;
+  height: 20px;
+}
