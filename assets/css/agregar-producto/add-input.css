@@ -1,0 +1,4 @@
+.add__btn {
+  background-color: var(--color-backgroud-btn);
+  color: var(--color-texto-enlace-claro);
+}

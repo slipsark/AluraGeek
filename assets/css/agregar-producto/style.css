@@ -1,0 +1,6 @@
+.add__container  {
+  display: flex;
+  justify-content: center;
+
+  background-color: var(--color-backgroud-login);
+}
