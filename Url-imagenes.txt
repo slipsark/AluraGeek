@@ -1,0 +1,19 @@
+Categorias
+  - Lacteos
+      Huevos "https://gastronomiaycia.republica.com/wp-content/uploads/2023/01/huevospequenosograndes1.jpg"
+      Leche "https://img.europapress.es/fotoweb/fotonoticia_20230128090046_1200.jpg"
+      Mantequilla "https://imgmedia.buenazo.pe/1200x660/buenazo/original/2022/12/03/638b7bb84d607b79bd5a80bf.jpg"
+      Queso "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOlwOVyL1aGfMV4j9x4Ir9WIljZQtvSCR1IA&usqp=CAU"
+      Yogurt "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Turkish_strained_yogurt.jpg/640px-Turkish_strained_yogurt.jpg"
+  - Snacks
+      Cheetos "https://www.elcomercio.com/wp-content/uploads/2021/12/Cheetos-Mega-Queso-700x790.png"
+      Doritos "https://www.supermercadosantamaria.com/documents/10180/10504/172206101_M.jpg"
+      K-chitos "https://www.laespanola.com.ec/images/thumbs/0002200_00035266.jpeg"
+      Maní "https://www.saborusa.com/wp-content/uploads/2019/10/7-poderosas-razones-para-comer-mani-Foto-destacada.png"
+      Nachos "https://www.fybeca.com/dw/image/v2/BDPM_PRD/on/demandware.static/-/Sites-masterCatalog_FybecaEcuador/default/dw442ae92a/images/large/16910-SNACK-NACHOS-QUESO-45-G-PAQUETE.JPG?sw=1000&sh=1000"
+  - Cárnicos
+      Cane molida "https://www.informador.mx/__export/1641927000980/sites/elinformador/img/2022/01/11/carne_molida_2_crop1641927000396.jpg_1902800913.jpg"
+      Chorizo "https://www.supermercadosantamaria.com/documents/10180/10504/150252991_G.jpg"
+      Carne de cerdo "https://www.unisabana.edu.co/fileadmin/_processed_/6/4/csm_beneficios_carne_de_cerdo_unisabana_e61a5008b0.jpg"
+      Corviche "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBEJ5v6AehifobsnORfr3oHw5jL4mq7zrfa8jY5rosdOamsfHRJrponXqqV5qwDnDnmzM&usqp=CAU"
+      Pechuga de pollo "https://www.clara.es/medio/2022/03/07/recetas-con-pechuga-de-pollo_a62c2947_1280x853.jpg"
