@@ -17,3 +17,8 @@ Categorias
       Carne de cerdo "https://www.unisabana.edu.co/fileadmin/_processed_/6/4/csm_beneficios_carne_de_cerdo_unisabana_e61a5008b0.jpg"
       Corviche "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBEJ5v6AehifobsnORfr3oHw5jL4mq7zrfa8jY5rosdOamsfHRJrponXqqV5qwDnDnmzM&usqp=CAU"
       Pechuga de pollo "https://www.clara.es/medio/2022/03/07/recetas-con-pechuga-de-pollo_a62c2947_1280x853.jpg"
+
+Usuario
+admin
+Password
+admin

@@ -1,0 +1,11 @@
+{
+  "Productos": [
+    {
+      "url": "https://gastronomiaycia.republica.com/wp-content/uploads/2023/01/huevospequenosograndes1.jpg",
+      "categoria": "Lácteos",
+      "nombre": "Huevos",
+      "precio": "4.5",
+      "id": "ee709edb-372f-4e8d-bb09-14e1710b915c"
+    }
+  ]
+}
