@@ -1,13 +1,46 @@
 .producto__card {
   position: relative;
+}
+.card__accion {
+  position: absolute;
+  top: .2rem;
+
+  width: 25px;
+  height: 25px;
+}
+.eliminar {
+  background-image: url(../../../img/cancel.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+
+  right: .3rem; 
+  
   cursor: pointer;
 }
+.editar {
+  background-image: url(../../../img/editar.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
-.eliminar {
+  right: 2.4rem;
+}
+.eliminar:hover::after {
+  content: "Eliminar";
+  font-family: var(--contenido);
+  font-size: 1rem;
+
   position: absolute;
-  top: -.9rem;
-  right: -.9rem;
+  top: -1.4rem;
+}
+.editar:hover::after {
+  content: "Editar";
+  font-family: var(--contenido);
+  font-size: 1rem;
 
-  width: 20px;
-  height: 20px;
+  position: absolute;
+  top: -1.3rem;
 }
