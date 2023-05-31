@@ -23,6 +23,20 @@
 
   color: var(--color-texto-descripcion);
 }
+.card__precio::before {
+  content: "$ ";
+}
+.id {
+  font-size: .9rem;
+  font-weight: 500;
+
+  color: var(--color-texto-descripcion);
+}
+.id::before {
+  content: "# ";
+  font-size: 1.4rem;
+  font-weight: bold;
+}
 .card__enlace {
   font-size: 0.875;
   font-weight: 700;
