@@ -9,13 +9,25 @@ const crearCard = (url, nombre, precio, id)=> {
     <span class="card__descripcion">${nombre}</span>
     <span class="card__precio">${precio}</span>
     <span class="id">${id}</span>
-    <button class="eliminar card__accion"></button>
+    <button class="eliminar card__accion" id="${id}"></button>
     <a href="../Editar-producto/index.html" class="editar card__accion"></a>
     
   `;
   linea.classList.add("producto__card")
   linea.classList.add("card")
   linea.innerHTML = body;
+
+  const eliminarCard = linea.querySelector(".eliminar");
+
+  eliminarCard.addEventListener("click", (e)=> {
+    e.preventDefault();
+
+    const id = eliminarCard.id;
+
+    datosServidor.eliminarProducto(id)
+      .then(respuesta=> respuesta)
+      .catch(error=> console.log("Ocurrió un error"))
+  })
 
   return linea;
 };

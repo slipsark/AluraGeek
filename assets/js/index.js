@@ -35,7 +35,20 @@ const crearProducto =(url, categoria, nombre, precio)=> {
   throw new Error("No se puede crear un producto")
 } ; 
 
+const eliminarProducto = (id)=> {
+  return fetch (`http://localhost:3000/Productos/${id}`, {
+    method: "DELETE"
+  })
+};
+
+const detallesProductos = (id)=> {
+  return fetch(`http://localhost:3000/Productos/${id}`)
+  .then(respuesta=> respuesta.json())
+};
+
 export const datosServidor = {
   servidorProductos,
-  crearProducto
+  crearProducto,
+  eliminarProducto,
+  detallesProductos
 };
