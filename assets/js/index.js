@@ -46,9 +46,22 @@ const detallesProductos = (id)=> {
   .then(respuesta=> respuesta.json())
 };
 
+const actualizarDatos = (url, nombre, precio, id)=> {
+  return fetch(`http://localhost:3000/Productos/${id}`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({url, nombre, precio, id})
+  })
+    .then(respuesta=> respuesta)
+    .catch(error=> console.log("Error"))
+};
+
 export const datosServidor = {
   servidorProductos,
   crearProducto,
   eliminarProducto,
-  detallesProductos
+  detallesProductos,
+  actualizarDatos
 };

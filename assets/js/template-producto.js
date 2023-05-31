@@ -10,7 +10,7 @@ const crearCard = (url, nombre, precio, id)=> {
     <span class="card__precio">${precio}</span>
     <span class="id">${id}</span>
     <button class="eliminar card__accion" id="${id}"></button>
-    <a href="../Editar-producto/index.html" class="editar card__accion"></a>
+    <a href="../Editar-producto/index.html?id=${id}" class="editar card__accion"></a>
     
   `;
   linea.classList.add("producto__card")

@@ -2,10 +2,15 @@
   "Productos": [
     {
       "url": "https://gastronomiaycia.republica.com/wp-content/uploads/2023/01/huevospequenosograndes1.jpg",
-      "categoria": "Lácteos",
       "nombre": "Huevos",
-      "precio": "4.5",
+      "precio": "4.55",
       "id": "ee709edb-372f-4e8d-bb09-14e1710b915c"
+    },
+    {
+      "url": "https://www.supermercadosantamaria.com/documents/10180/10504/150252991_G.jpg",
+      "nombre": "Chorizo",
+      "precio": "3.95",
+      "id": "5069f1a2-d0d6-48e8-88fd-2676697a994f"
     }
   ]
 }
