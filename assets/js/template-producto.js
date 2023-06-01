@@ -41,10 +41,10 @@ const listaProductos = ()=> {
     http.onload = ()=> {
       const response = JSON.parse(http.response);
 
-      http.status >= 400 ?reject(response) : resolve(response);
+      http.status >= 400 ? reject(response) : resolve(response);
 
     }
-  });;
+  });
 
   return promise;
 };
@@ -55,4 +55,4 @@ listaProductos().then(data=> {
 
     bodyCard.appendChild(crearbodyCard);
   });
-}).catch(error=> console.log("Ocurrió un error"))
+}).catch(error=> console.log("error"))

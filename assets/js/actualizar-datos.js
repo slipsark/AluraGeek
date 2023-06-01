@@ -11,12 +11,14 @@ const obtenerInformacion = ()=> {
   }
 
   const urlProducto = document.querySelector("#add");
+  const categoriaProducto = document.querySelector("#categoria");
   const nombreProducto = document.querySelector("#producto-name");
   const precioProducto = document.querySelector("#precio");
 
   datosServidor.detallesProductos(id)
-    .then(({url, nombre, precio})=> {
+    .then(({url,categoria, nombre, precio})=> {
       urlProducto.value = url;
+      categoriaProducto.value = categoria;
       nombreProducto.value = nombre;
       precioProducto.value = precio;
     })
@@ -30,10 +32,11 @@ formEditar.addEventListener("submit", (e)=> {
   const url = new URL(window.location);
   const id = url.searchParams.get("id");
   const urlProducto = document.querySelector("#add").value;
+  const categoriaProducto = document.querySelector("#categoria").value;
   const nombreProducto = document.querySelector("#producto-name").value;
   const precioProducto = document.querySelector("#precio").value;
 
-  datosServidor.actualizarDatos(urlProducto, nombreProducto, precioProducto, id)
+  datosServidor.actualizarDatos(urlProducto, categoriaProducto, nombreProducto, precioProducto, id)
     .then(()=> {
       window.location.href = "../Inventario/index.html";
     })

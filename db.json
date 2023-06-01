@@ -1,16 +1,109 @@
 {
   "Productos": [
     {
-      "url": "https://gastronomiaycia.republica.com/wp-content/uploads/2023/01/huevospequenosograndes1.jpg",
-      "nombre": "Huevos",
-      "precio": "4.55",
-      "id": "ee709edb-372f-4e8d-bb09-14e1710b915c"
-    },
-    {
       "url": "https://www.supermercadosantamaria.com/documents/10180/10504/150252991_G.jpg",
+      "categoria": "Cárnicos",
       "nombre": "Chorizo",
       "precio": "3.95",
       "id": "5069f1a2-d0d6-48e8-88fd-2676697a994f"
+    },
+    {
+      "url": "https://img.europapress.es/fotoweb/fotonoticia_20230128090046_1200.jpg",
+      "categoria": "Lácteos",
+      "nombre": "Leche",
+      "precio": "1.05",
+      "id": "f1cf17be-bfd0-40f6-83aa-0a79e81ba718"
+    },
+    {
+      "url": "https://www.saborusa.com/wp-content/uploads/2019/10/7-poderosas-razones-para-comer-mani-Foto-destacada.png",
+      "categoria": "Snacks",
+      "nombre": "Maní",
+      "precio": "1.25",
+      "id": "70b6684d-6488-4560-a4ab-df8c8176cd32"
+    },
+    {
+      "url": "https://gastronomiaycia.republica.com/wp-content/uploads/2023/01/huevospequenosograndes1.jpg",
+      "categoria": "Lácteos",
+      "nombre": "Huevos",
+      "precio": "3.5",
+      "id": "9f03f39d-2589-4ce1-98ef-c37246279588"
+    },
+    {
+      "url": "https://imgmedia.buenazo.pe/1200x660/buenazo/original/2022/12/03/638b7bb84d607b79bd5a80bf.jpg",
+      "categoria": "Lácteos",
+      "nombre": "Mantequilla",
+      "precio": "2.75",
+      "id": "b21c8302-f22a-4857-b46e-c5e2dd40b22f"
+    },
+    {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOlwOVyL1aGfMV4j9x4Ir9WIljZQtvSCR1IA&usqp=CAU",
+      "categoria": "Lácteos",
+      "nombre": "Queso",
+      "precio": "2",
+      "id": "509d05e1-a3bf-45b6-94d7-ecd838ec3140"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Turkish_strained_yogurt.jpg/640px-Turkish_strained_yogurt.jpg",
+      "categoria": "Lácteos",
+      "nombre": "Yogurt",
+      "precio": "1.25",
+      "id": "019695be-c3e7-473d-b044-a23a2eeca2bc"
+    },
+    {
+      "url": "https://www.elcomercio.com/wp-content/uploads/2021/12/Cheetos-Mega-Queso-700x790.png",
+      "categoria": "Snacks",
+      "nombre": "Cheetos",
+      "precio": "0.75",
+      "id": "600eee45-7b00-45e8-92b7-cc08133d362c"
+    },
+    {
+      "url": "https://www.supermercadosantamaria.com/documents/10180/10504/172206101_M.jpg",
+      "categoria": "Snacks",
+      "nombre": "Doritos",
+      "precio": "0.95",
+      "id": "033ecb62-f095-46b3-92fa-040a13b01c56"
+    },
+    {
+      "url": "https://www.laespanola.com.ec/images/thumbs/0002200_00035266.jpeg",
+      "categoria": "Snacks",
+      "nombre": "K-chitos",
+      "precio": "1.05",
+      "id": "0fc330ee-8bac-4ee6-85a9-e70adad11b19"
+    },
+    {
+      "url": "https://www.fybeca.com/dw/image/v2/BDPM_PRD/on/demandware.static/-/Sites-masterCatalog_FybecaEcuador/default/dw442ae92a/images/large/16910-SNACK-NACHOS-QUESO-45-G-PAQUETE.JPG?sw=1000&sh=1000",
+      "categoria": "Snacks",
+      "nombre": "Nachos",
+      "precio": "0.89",
+      "id": "6f964095-d69e-4cb0-a75a-2400ebc5b665"
+    },
+    {
+      "url": "https://www.informador.mx/__export/1641927000980/sites/elinformador/img/2022/01/11/carne_molida_2_crop1641927000396.jpg_1902800913.jpg",
+      "categoria": "Cárnicos",
+      "nombre": "Carne molida",
+      "precio": "2.75",
+      "id": "6e5f6836-d3b0-43c2-a0cc-776eda90043e"
+    },
+    {
+      "url": "https://www.unisabana.edu.co/fileadmin/_processed_/6/4/csm_beneficios_carne_de_cerdo_unisabana_e61a5008b0.jpg",
+      "categoria": "Cárnicos",
+      "nombre": "Carne de cerdo",
+      "precio": "2.50",
+      "id": "c3803917-63d1-44cd-9ee6-371119010ffb"
+    },
+    {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBEJ5v6AehifobsnORfr3oHw5jL4mq7zrfa8jY5rosdOamsfHRJrponXqqV5qwDnDnmzM&usqp=CAU",
+      "categoria": "Cárnicos",
+      "nombre": "Corviche",
+      "precio": "3.55",
+      "id": "670f5d38-d91b-4c8e-ac4e-115ad2bc273d"
+    },
+    {
+      "url": "https://www.clara.es/medio/2022/03/07/recetas-con-pechuga-de-pollo_a62c2947_1280x853.jpg",
+      "categoria": "Cárnicos",
+      "nombre": "Pechuga de pollo",
+      "precio": "1.25",
+      "id": "14e76f4a-5ae6-4cc6-a559-3d6216c90342"
     }
   ]
 }
